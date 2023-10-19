@@ -46,10 +46,9 @@ canvas {
   width: 100%;
   font-family: "UTMWeddingKT";
   text-shadow: -1px -1px 0 #ff0098, 0.5px 0.5px 0 #ff0098, 0 0 12px #ff0098;
-
   text-align: center;
   font-size: 5vw;
-  color: rgb(182, 57, 78);
+  color: rgb(122, 29, 44);
 }
 
 .credits {
@@ -338,7 +337,7 @@ canvas {
 .back::before,
 .right::before {
   content: "Chúc mừng ngày phụ nữ Việt Nam 20/10/2023";
-  color: red;
+  color: rgb(139, 26, 26);
   z-index: 2;
   transform: translateZ(0.1px);
   position: absolute;
