@@ -36,9 +36,9 @@ if (screenWidth <= 720) {
   cardDiv.style.justifyContent = "center";
   cardDiv.style.alignItems = "center";
   card.style.width = "70%";
-  card.style.marginTop = "50px";
+  card.style.marginTop = "70px";
   card.style.marginLeft = "15%";
-  cardText.style.fontSize = "20px";
+  cardText.style.fontSize = "60px";
 } else if (screenWidth > 720) {
   console.log(screenWidth);
   // Set the width to 350px for larger screens.
