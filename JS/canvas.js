@@ -10,6 +10,9 @@
 
   /*Initialize flowers*/
   body.addEventListener("click", function (ev) {
+    if (audio.paused) {
+      audio.play(); // Bắt đầu phát âm thanh
+    }
     drawFlowers();
   });
   window.onload = drawFlowers;
