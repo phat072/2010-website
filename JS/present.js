@@ -3,6 +3,9 @@ let counts = 1;
 
 const present = document.querySelector(".present");
 present.addEventListener("click", () => {
+  if (audio.paused) {
+      audio.play(); // Bắt đầu phát âm thanh
+    }
   counts += 1;
   present.style.setProperty("--count", Math.ceil(counts / 2));
   present.classList.add("animate");
