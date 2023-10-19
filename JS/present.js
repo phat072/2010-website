@@ -31,15 +31,15 @@ const cardDiv = document.createElement("card-div");
 const screenWidth = window.innerWidth;
 console.log(screenWidth);
 
-if (screenWidth < 400) {
+if (screenWidth <= 720) {
   // Set the width of the card element to 100% on screens with a width less than or equal to 400px.
   cardDiv.style.justifyContent = "center";
   cardDiv.style.alignItems = "center";
   card.style.width = "70%";
-  card.style.marginTop = "40px";
+  card.style.marginTop = "50px";
   card.style.marginLeft = "15%";
   cardText.style.fontSize = "20px";
-} else if (screenWidth >= 400) {
+} else if (screenWidth > 720) {
   console.log(screenWidth);
   // Set the width to 350px for larger screens.
   cardDiv.style.position = "absolute";
