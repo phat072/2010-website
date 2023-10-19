@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MaiVu's Day</title>
+    <link rel="stylesheet" href="/css/canvas.css" />
+    <link rel="stylesheet" href="/css/gift.css" />
+    <link rel="stylesheet" href="fonts/UTM Wedding K_T.ttf" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <canvas id="present_can"></canvas>
+    <div class="headline">VietNamese Women's Day</div>
+
+    <div class="instructions">Chúc emiu 20/10 dzuii dzẻ</div>
+
+    <div class="present">
+      <img class="gift" src="MV.png" alt="the gift" />
+
+      <div class="wiggle-container">
+        <div class="rotate-container">
+          <div class="bottom"></div>
+          <div class="front"></div>
+          <div class="left"></div>
+          <div class="back"></div>
+          <div class="right"></div>
+
+          <div class="lid">
+            <div class="lid-top"></div>
+            <div class="lid-front"></div>
+            <div class="lid-left"></div>
+            <div class="lid-back"></div>
+            <div class="lid-right"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      id="card-div"
+      style="
+        position: relative;
+        height: 896px;
+        width: inherit;
+        z-index: -1;
+        display: flex;
+      "
+    >
+      <div id="card">
+        <h4>💘little coder💘</h4>
+
+        <img src="MV2.jpg" class="honey" />
+
+        <h4>
+          On the occasion of Vietnamese Women's Day, I want to send my warmest
+          wishes to my beloved. You are a source of inspiration and pride in my
+          life. The journeys we have traveled together, the memories we have
+          built, all are moments to cherish. Always keep your radiant smile and
+          your love full of passion. I will always be by your side, supporting
+          you through every challenge and sharing in your joy, not only today
+          but on the meaningful path ahead. Wishing you to always shine, be
+          successful, and happy. Happy Vietnamese Women's Day, my love!💘
+        </h4>
+      </div>
+    </div>
+
+    <audio autoplay loop>
+      <source src="XinhtuoiVN.mp3" type="audio/mp3" />
+    </audio>
+  </body>
+  <script src="/JS/canvas.js"></script>
+  <script src="/JS/present.js"></script>
+</html>
